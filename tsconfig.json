@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "module": "nodenext", // or es2020, es2022, etc.
+    "module": "preserve", // or es2020, es2022, etc.
     "target": "esnext",
     "lib": ["dom", "es2015"],
-    "moduleResolution": "nodenext",
+    "moduleResolution": "bundler",
 
     "jsx": "react-jsx",
     "esModuleInterop": true,  
